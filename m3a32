@@ -1,0 +1,83 @@
+a=input("enter a string :")
+ 
+b=a.strip ().lower ()
+ 
+all_freq ={}
+ 
+for i in b:
+    if i in all_freq:
+        all_freq[i] += 1
+    else:
+        all_freq[i] = 1
+ 
+print ("Count of all characters in your string is :\n "+ str
+(all_freq))
+
+
+
+
+
+
+
+
+try: 
+           num=int(input("enter a number :"))
+                i=0
+                sum=0
+                num1=num
+                while (num>0):
+                     i=i+1
+                     rem=num%10
+                     sum+=rem
+                     num=num//10
+                print("sum:",sum)
+                print("average :",sum/i)
+              except:
+                    print("please enter valid input..!!")
+              finally:
+                    print("THANK YOU...!!")
+
+
+
+
+ 
+ 
+ 
+ 
+ a=input("enter a string :")
+all_freq = {}
+ 
+ 
+for i in a:
+    if i in all_freq:
+        all_freq[i] += 1
+    else:
+        all_freq[i] = 1
+ 
+ 
+print("count of all characters in your string is :\n "+  str
+(all_freq))
+
+
+
+
+
+
+
+
+
+
+c=input("enter a string")
+sorted(c,key=str.lower)
+
+
+
+
+
+
+
+s1=input ("enter string 1 :")
+s2=input("enter string 2 :")
+ a=( len(s1)//2) 
+str=s1[:a]+s2+s1[a:]
+print(str)
